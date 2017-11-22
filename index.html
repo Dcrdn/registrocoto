@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/user.css">
+
+    <script>
+      function subir(){
+        alert("Hecho");
+      }
+    </script>
 </head>
 
 <body>
@@ -36,7 +42,7 @@
         <div class="row product">
             <div class="col-md-5 col-md-offset-0"><img class="img-responsive" src="ine.JPG"></div>
             <div class="col-md-7">
-                <form action="subir()">
+                <form>
                       Nombre completo:<br>
                       <input type="text" name="nombre"><br>
                       Dirección:<br>
@@ -46,14 +52,16 @@
                       Destino:<br>
                       <input type="text" name="destino"><br>
 <br>
-                      <input class="btn btn-primary" type="submit" value="Submit">
+                      <input class="btn btn-primary" type="submit" value="Submit" onclick="subir()">
                 </form>
                 <br>
             </div>
         </div>
         <div class="page-header">
-            <h3>Usuarios registrados</h3></div>
+            <h3></h3></div>
+            <input class="btn btn-primary" type="submit" value="Ver registros">
         <p></p>
+        <!--
         <div class="table-responsive">
             <table class="table table-striped">
                 <thead>
@@ -87,7 +95,7 @@
                 </tbody>
             </table>
         </div>
-
+ -->
         <div class="media">
             <div class="media-body"></div>
         </div>
